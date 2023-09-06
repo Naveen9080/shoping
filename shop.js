@@ -20,6 +20,7 @@ function hello(){
     n.className='t1';
     n.innerHTML=`<button class="btn-li">${a}<i id="t">&#215;</i> </button>`;
     t.appendChild(n);
+    console.log('hello');
    }
 }
 function del(a){
