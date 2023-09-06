@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="module">
+        <img src="note.png" id="img" alt=""/>
+        <h1  id="head">Shopping List</h1></div>
+    <div class="add-item">
+       <input type="text" placeholder="Enter item" id="get1"></div>
+       <p id="err"></p>
+    </div>
+    <div>
+    <button id="btn" onclick="hello()">&plus; Add item</button>
+    </div>
+    <form id="module2">
+        <div>
+            <input type="text" placeholder="Filter item" id="fil">
+        </div>
+        <ul id="add">
+            <li class="t1 del">
+               <button class="btn-li" type="default"  onclick="">Apple<i id="t">&#215;</i> </button>
+            </li>
+            <li class="t1">
+                <button class="btn-li">Orange<i id="t">&#215;</i> </button>
+             </li>
+             <li class="t1">
+                <button class="btn-li">Mango<i id="t">&#215;</i> </button>
+             </li>
+             <li class="t1">
+                <button class="btn-li">Orange Juice<i id="t">&#215;</i> </button>
+             </li>
+        </ul>
+        <button id="clear">Clear ALL</button>
+    </form>
+    <script src="shop.js"></script>
+</body>
+</html>
